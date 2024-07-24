@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.list-el {
+    height: 16vh;
+    width: 35vw;
+    border: 2px solid #ffffff;
+    background-color: #ffffff33;
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    margin-right: 36px;
+    border-radius: 16px;
+}
+
+.extra {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.team-logo {
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 125px;
+}

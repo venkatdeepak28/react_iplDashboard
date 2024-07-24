@@ -1,0 +1,64 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 16px;
+}
+
+.main-heading {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.list-prop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  max-width: 80vw;
+}
+
+.list-el {
+  height: 16vh;
+  width: 35vw;
+  border: 2px solid #ffffff;
+  background-color: #ffffff33;
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+  margin-right: 36px;
+  border-radius: 16px;
+}
+
+.extra {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.team-logo {
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 125px;
+}

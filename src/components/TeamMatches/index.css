@@ -1,0 +1,121 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  height: 140vh;
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+  height: 140vh;
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #4f5db0);
+  height: 140vh;
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  height: 140vh;
+}
+.RR {
+  background-image: linear-gradient(to bottom, #13418b, #5755a7);
+  height: 140vh;
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #ffffff33);
+  height: 140vh;
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+  height: 140vh;
+}
+.DC {
+  background-image: linear-gradient(to bottom, #13418b, #4f5db0);
+  height: 140vh;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  height: 38vh;
+}
+.matches-para {
+  margin-left: 6%;
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 20px;
+}
+
+.latest-match-container {
+  background-color: #0f172a;
+  margin-left: 6%;
+  margin-right: 6%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 24px;
+}
+.matches-heading {
+  font-family: 'Bree Serif';
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.latest-match-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Bree Serif';
+  font-weight: normal;
+}
+.right-side {
+  text-align: right;
+}
+.latest-match-logo {
+  height: 200px;
+}
+
+.recent-list-prop {
+  list-style: none;
+  max-width: 90vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 9%;
+}
+.recent-list-el {
+  max-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px;
+  width: 23vw;
+  color: white;
+  font-family: 'Bree Serif';
+  text-align: center;
+  background-color: #0f172a;
+  margin-right: 12px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  border-radius: 24px;
+}
+.recent-logo {
+  height: 120px;
+}
+.won {
+  color: #18ed66;
+  font-weight: normal;
+}
+.lost {
+  color: #e31a1a;
+  font-weight: normal;
+  font-size: 24px;
+}
